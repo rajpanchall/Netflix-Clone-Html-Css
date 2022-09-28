@@ -1,0 +1,207 @@
+@media only screen and (max-width:1250px) {
+    .main-content-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar img {
+        height: 80px;
+        width: 100px;
+    }
+
+    .input-Box {
+        height: 50px;
+        width: 100%;
+    }
+
+    .email {
+        width: 80%;
+    }
+
+    .email-Box {
+        width: 45%;
+    }
+
+    .get-Started-btn {
+        width: 20%;
+        font-size: 1.5rem;
+        padding: 0px 5px;
+    }
+
+    /* Second Container starts from here!! */
+    .second-Content-container {
+        height: 100%;
+        width: 100%;
+        /* padding: 50px 50px; */
+    }
+
+    .second-Heading {
+        height: 100%;
+        width: 100%;
+    }
+
+    .tv-container {
+        height: 80%;
+        width: 100%;
+        /* padding: 20px 10px; */
+    }
+
+    .tv-container img {
+        height: 380px;
+        width: 450px;
+    }
+
+
+
+    /* Third Container starts from here!! */
+    .third-Content-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .mobile-Container {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .mobile-Container img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .third-Content {
+        height: 500px;
+        width: 100%;
+    }
+
+
+
+
+    .FAQ {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width:1100px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .main-Home-container {
+        height: 100%;
+        width: 100%;
+        background-color: red;
+    }
+
+    .main-Home-container::before {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .navbar img {
+        height: 80px;
+        width: 100px;
+    }
+
+    .navbar .sign-In-btn {
+        height: 35px;
+        width: 80px;
+        font-size: 1.1rem;
+    }
+
+    .main-content-container {
+        height: 80%;
+        width: 100%;
+        padding: 100px;
+        line-height: 3;
+    }
+
+    .main-Content-heading {
+        font-size: 2.5rem;
+    }
+
+    .main-Content-second-heading {
+        font-size: 1.3rem;
+    }
+
+    .main-Content-para {
+        font-size: 1rem;
+        word-spacing: 1px;
+        font-weight: 300;
+    }
+
+    .input-Box {
+        height: 40px;
+        width: 100%;
+
+    }
+
+    .email-Box {
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
+    .get-Started-btn {
+        width: 20%;
+        font-size: 1.2rem;
+        padding: auto 10px;
+    }
+
+    i {
+        font-size: 1.2rem;
+    }
+
+    /* Second-Container Starts from here! */
+
+    .second-Content-container {
+        height: 100%;
+        width: 100%;
+        padding: 70px 0px;
+        display: flex;
+        flex-direction: column;
+        /* line-height: -200%; */
+    }
+
+    .second-Heading {
+        /* height: 50%; */
+        width: 100%;
+       
+    }
+    .second-Content-second-heading{
+        font-size: 1.7rem;
+        width: 100%;
+    }
+    .second-Content-heading {
+        width: 100%;
+        /* font-size: 2.8rem; */
+        font-size: 3.2rem;
+        font-weight: 600;
+
+    }
+
+    .tv-container img {
+        /* height: 100%; */
+        width: 50%;
+    }
+
+
+    /* Third container starts from here!! */
+
+
+
+
+
+
+
+
+
+}

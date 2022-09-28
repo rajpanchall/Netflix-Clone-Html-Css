@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    background-color: rebeccapurple;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: right; */
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img{
+    height: 100px;
+    width: 130px;
+}
+.item{
+    background-color: aqua;
+    height: 70px;
+    width: 90px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 6px;
+
+}

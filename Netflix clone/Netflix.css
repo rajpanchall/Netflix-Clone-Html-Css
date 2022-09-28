@@ -1,0 +1,368 @@
+* {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main-Home-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow-y: hidden;
+    border-bottom: 8px solid rgb(70, 69, 69);
+}
+
+.main-Home-container::before {
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: url('./netflix.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    filter: brightness(34%);
+    -webkit-filter: brightness(34%);
+    -moz-filter: brightness(34%);
+    border-bottom: 10px solid grey;
+}
+
+.navbar {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.navbar img {
+    height: 15vh;
+    width: 14%;
+    margin-left: 57px;
+}
+
+.sign-In-btn {
+    height: 35px;
+    width: 80px;
+    background-color: #e50914;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70px;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-In-btn a {
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.main-content-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 300%;
+    padding: 100px;
+
+}
+
+.main-Content-heading {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 100%;
+    word-spacing: 1.6px;
+}
+
+.main-Content-second-heading {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2.5;
+    text-shadow: 6px 10px 38px rgba(255, 255, 255, 0.20);
+    ;
+}
+
+.main-Content-para {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 6px 10px 38px rgba(255, 255, 255, 0.20);
+}
+
+.input-Box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 55px;
+    width: 100%;
+}
+
+.email-Box {
+    background-color: white;
+    padding: 0px 16px;
+    width: 45%;
+    font-size: 1rem;
+    color: rgb(144, 144, 144);
+    border-radius: 5px;
+}
+
+.get-Started-btn {
+    background-color: #e50914;
+    font-size: 1.5rem;
+    width: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.get-Started-btn a {
+    text-decoration: none;
+}
+
+.get-Started-btn i {
+    color: white;
+}
+
+
+.second-Content-container {
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(70, 69, 69);
+    align-items: center;
+}
+
+.second-Heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding: 0px 85px;
+
+}
+
+.second-Content-heading {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 180%;
+}
+
+.second-Content-second-heading {
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-indent: 2.5px;
+    line-height: 120%;
+    word-spacing: 1px;
+    height: 100px;
+    width: 100%;
+}
+
+.tv-container {
+    text-align: center;
+    padding-right: 40px;
+    height: 60vh;
+    width: 50%;
+}
+
+.tv-container img {
+    height: 50vh;
+    width: 70%;
+    position: relative;
+
+}
+
+
+/* Third Content starts from here! */
+
+.third-Content-container {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    border-bottom: 8px solid rgb(70, 69, 69);
+}
+
+.mobile-Container {
+    height: 100%;
+    width: 50%;
+}
+
+.mobile-Container img {
+    height: auto;
+    width: 520px;
+    padding: 40px 10px;
+}
+
+
+.third-Content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.third-Content-heading {
+    width: 85%;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.third-Content-second-heading {
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-indent: 2.5px;
+    word-spacing: 1px;
+    height: 100px;
+    width: 100%;
+    line-height: 1.4;
+
+}
+
+.FAQ {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px;
+    border-bottom: 8px solid rgb(70, 69, 69);
+}
+
+.FaQ-Heading {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3;
+}
+
+.FaQ-Questions {
+    background-color: #303030;
+    height: 70px;
+    width: 65%;
+    margin: 10px auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 30px;
+}
+
+.FaQ-Questions i {
+    padding: 0px 25px;
+    font-size: 30px;
+}
+
+.email-bar {
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1px auto;
+    line-height: 3;
+}
+
+.span-Container {
+    height: 65%;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-table {
+    margin: 0 auto;
+    height: 65%;
+    width: 75%;
+    padding: 60px 40px;
+}
+
+.footer-table p {
+    height: 50px;
+    line-height: 80%;
+    color: #757575;
+}
+
+.footer-table li {
+    color: #757575;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 100%;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+
+.footer-table li a {
+    color: #757575;
+}
+
+.footer-table li a:hover {
+    border-bottom: 1px solid #757575;
+}
+
+.logo {
+    font-size: 1rem;
+    color: red;
+}
+
+.lang-btn {
+    border: 1px solid #757575;
+    ;
+    display: inline-block;
+    padding: 15px 15px;
+    margin-top: 20px;
+    color: #757575;
+}
+
+.lang-btn i {
+    padding: 0px 5px;
+    color: #757575;
+}
+
+.lang-btn i:hover {
+    color: whitesmoke;
+}
+
+.lang-btn:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.last-Logo {
+    display: block;
+    color: #757575;
+    margin-top: 24px;
+    font-size: 17px;
+}

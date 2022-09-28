@@ -1,0 +1,8 @@
+ font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+background-img:  filter: brightness(36%);
+       -webkit-filter: brightness(36%);
+       -moz-filter: brightness(36%);
+
+background-nav:   filter: brightness(6%);
+   -webkit-filter: brightness(6%);
+   -moz-filter: brightness(6%);
